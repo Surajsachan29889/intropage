@@ -1,0 +1,349 @@
+#title
+{
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration:solid;
+}
+#first-text
+{
+  color: #0c0d0d;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end),
+  blink-text .5s step-end infinite ;
+
+}
+@keyframes typing
+{
+  from{
+    width: 0;
+  }
+  to {
+    width: 68%;
+  }
+}
+@keyframes blink-text {
+  from,to{
+    border-color: transparent;
+  }
+  50%{
+    border-color: orange;
+  }
+  
+}
+
+.data
+{
+  background-color: #ccc;
+  margin: -9px;
+}
+
+h2
+{
+    font-family: 'Sono', sans-serif;
+    
+}
+
+
+.container
+{
+    max-width: 2000px;
+    margin: 0 auto ;
+    display: grid;
+    grid-template-areas:'title'
+    'img' ;
+    padding: 41px;
+
+}
+.container > div{
+    margin: 20px auto;
+}
+
+    
+
+
+#suraj
+{
+    text-align: center;
+    color: black;
+    
+    
+}
+#surajimg
+{
+    justify-self: center;
+    padding: 4%;
+}
+#shreyimg
+{
+    justify-self: center;
+    padding: 4%;
+}
+#sheershimg
+{
+    justify-self: center;
+    padding: 4%;
+}
+#aparnaimg
+{
+    justify-self: center;
+    padding: 4%;
+}
+#sheersh
+{
+    text-align: center;
+}
+#aparna
+{
+    text-align: center;
+}
+#shrey
+{
+    text-align: center;
+}
+.intro
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 10%;
+    row-gap: 1000px;
+    
+   
+}
+@media(max-width:853px){
+    .intro{
+        grid-template-columns: 100%;
+    }
+}
+#surajimg
+{
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgb(69, 48, 3);
+    transition: all ease-in-out .2%;
+    grid-area: img;
+}
+#surajimg:hover
+{
+    box-shadow:0 8px 12px 0 rgb(69, 48, 3) ;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+#sheershimg
+{
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgb(69, 48, 3);
+    transition: all ease-in-out .2%;
+    grid-area: img;
+}
+#sheershimg:hover
+{
+    box-shadow:0 8px 12px 0 rgb(69, 48, 3) ;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+#shreyimg
+{
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgb(69, 48, 3);
+    transition: all ease-in-out .2%;
+    grid-area: img;
+}
+#shreyimg:hover
+{
+    box-shadow:0 8px 12px 0 rgb(69, 48, 3) ;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+#aparnaimg
+{
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgb(69, 48, 3);
+    transition: all ease-in-out .2%;
+    grid-area: img;
+}
+#aparnaimg:hover
+{
+    box-shadow:0 8px 12px 0 rgb(69, 48, 3) ;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+hr
+{
+    border: 0px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+
+
+
+
+.button-78 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+  
+}
+
+
+@media (min-width: 768px) {
+  .button-78 {
+    padding: 19px 32px;
+    margin-left: 625px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}
+.matter
+{
+  font-family: 'Sono', sans-serif;
+  font-size: larger;
+  margin: 24px;
+  margin-bottom: 39px;
+    margin-top: -92px;
+}
+
+#footer
+{
+  text-align: center;
+  background-color: #403f3e;
+  margin-bottom: -21px;
+  font-size: small;
+  box-shadow: #fff;
+  
+}
+#foottext
+{
+  -webkit-text-fill-color: #ccc;
+  text-align: left;
+  padding-left: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+#foottitle
+{
+  text-align: center;
+  font-size: 40px;
+}
+#footimg
+{
+  width: 300px;
+    height: 300px;
+    position: inherit;
+    margin-left: 528px;
+    margin-top: -183px;
+    margin-bottom: -83px;
+}
+
+
+
+  
+ 
